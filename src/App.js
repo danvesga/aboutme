@@ -11,16 +11,16 @@ function App() {
 "https://icon2.cleanpng.com/20180322/kfw/avd5lehyl.webp"                        />
                     </div>
                     <li>
-                        <a href="#courses">Courses</a>
+                        <a href="#courses">My</a>
                     </li>
                     <li>
-                        <a href="#tutorials">Tutorials</a>
+                        <a href="#tutorials">Name</a>
                     </li>
                     <li>
-                        <a href="#jobs">Jobs</a>
+                        <a href="#jobs">Is</a>
                     </li>
                     <li>
-                        <a href="#student">Student</a>
+                        <a href="#student">Danny</a>
                     </li>
                 </ul>
 
@@ -40,26 +40,15 @@ function App() {
                 <div class="box-main">
                     <div class="firstHalf">
                         <h1 class="text-big">
-                            7 Best Tips To Speed Up Your Job
-                            Search in 2022
+                            About
                         </h1>
                         <p class="text-small">
-                            Hunting down a relevant job
-                            requires proper techniques for
-                            showcasing your potential to the
-                            employer. But with the advent of
-                            COVID-19, it has become a bit
-                            challenging and competitive to
-                            reach out for your dream job.
-                            Many individuals have lost their
-                            jobs during these times, and on
-                            the other hand, freshers are
-                            facing difficulties while
-                            applying for a new job. But
-                            there is no need for panic, you
-                            can change your ways and
-                            streamline things in a way that
-                            you get a proper result.
+                        As a combined Computer Science and Design student, 
+                        I am motivated to create intuitive and memorable interfaces. 
+                        I am an imaginative and detail-oriented worker, with a passion 
+                        for the visual arts and storytelling. Through design and development, 
+                        I want to influence a world where all our added technology and 
+                        shortcuts bolster the active and social parts of our lives.
                         </p>
                     </div>
                 </div>
@@ -68,7 +57,7 @@ function App() {
                 <div class="box-main">
                     <div class="secondHalf">
                         <h1 class="text-big" id="program">
-                            JavaScript Tutorial
+                            Skillz
                         </h1>
                         <p class="text-small">
                             JavaScript is the world most
@@ -90,7 +79,7 @@ function App() {
                 <div class="box-main">
                     <div class="secondHalf">
                         <h1 class="text-big" id="program">
-                            Java Programming Language
+                            Please Pick Me
                         </h1>
                         <p class="text-small">
                             When compared with C++, Java
@@ -120,31 +109,7 @@ function App() {
                     </div>
                 </div>
             </section>
-            <section class="section">
-                <div class="box-main">
-                    <div class="secondHalf">
-                        <h1 class="text-big" id="program">
-                            What is Machine Learning?
-                        </h1>
-                        <p class="text-small">
-                            Machine Learning is the field of
-                            study that gives computers the
-                            capability to learn without
-                            being explicitly programmed. ML
-                            is one of the most exciting
-                            technologies that one would have
-                            ever come across. As it is
-                            evident from the name, it gives
-                            the computer that makes it more
-                            similar to humans: The ability
-                            to learn. Machine learning is
-                            actively being used today,
-                            perhaps in many more places than
-                            one would expect.
-                        </p>
-                    </div>
-                </div>
-            </section>
+            
             <footer className="footer">
                 <p className="text-footer">
                     Copyright ©-All rights are reserved
@@ -153,5 +118,15 @@ function App() {
         </div>
     );
 }
+
+function welcome() {
+  return (
+    <h1>
+      Hello and Welcome.
+    </h1>
+  )
+}
+
+
 
 export default App;
