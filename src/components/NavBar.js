@@ -2,6 +2,8 @@
 import { useState, useEffect} from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import Pfp from '../assets/img/Pfp.jpg'
+import LinkedIn from '../assets/img/nav-icon1.svg'
+import Instagram from '../assets/img/nav-icon3.svg'
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -55,8 +57,8 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#"><img src={""} alt="yes" /></a>
-                            <a href="#"><img src={""} alt="yes" /></a>
+                            <a href="#"><img src={LinkedIn} alt="yes" /></a>
+                            <a href="#"><img src={Instagram} alt="yes" /></a>
                         </div>
                         <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>    
                     </span>
