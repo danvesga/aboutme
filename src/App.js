@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import { NavBar } from './components/NavBar.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     return (
@@ -128,9 +130,13 @@ function welcome() {
 }
 
 function App2() {
-    
+    return (
+        <div className="App2">
+            <NavBar/>
+        </div>
+    )
 }
 
 
 
-export default App;
+export default App2;
