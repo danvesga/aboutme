@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { NavBar } from './components/NavBar.js';
+import { Banner } from './components/Banner.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -133,6 +134,7 @@ function App2() {
     return (
         <div className="App2">
             <NavBar/>
+            <Banner/>
         </div>
     )
 }
