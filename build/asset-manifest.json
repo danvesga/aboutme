@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/aboutme/static/css/main.595fea5b.css",
+    "main.js": "/aboutme/static/js/main.facf1aed.js",
+    "static/js/453.5b2f4392.chunk.js": "/aboutme/static/js/453.5b2f4392.chunk.js",
+    "static/media/playground.jpg": "/aboutme/static/media/playground.6f90f9ea2e0d6b5c7d69.jpg",
+    "static/media/Untitled_Artwork 4.jpg": "/aboutme/static/media/Untitled_Artwork 4.36b936c799fdb5e8d479.jpg",
+    "static/media/Untitled_Artwork.jpg": "/aboutme/static/media/Untitled_Artwork.c96757b8d0fccbf409fa.jpg",
+    "static/media/IMG_0677.jpg": "/aboutme/static/media/IMG_0677.7535aa2e6a5faf0aec5c.jpg",
+    "static/media/IMG_0681.jpg": "/aboutme/static/media/IMG_0681.03b5c17f808c06035ed5.jpg",
+    "static/media/Silk-Road.jpg": "/aboutme/static/media/Silk-Road.f20cc7d26d415a480634.jpg",
+    "static/media/IMG_0679.jpg": "/aboutme/static/media/IMG_0679.2ac45c0d9570d2bee5f8.jpg",
+    "static/media/IMG_0680.jpg": "/aboutme/static/media/IMG_0680.f5c3a9cd886e0a5d60fe.jpg",
+    "static/media/IMG_9940.JPG": "/aboutme/static/media/IMG_9940.429f1bb1f8a00cd885df.JPG",
+    "static/media/IMG_0678.jpg": "/aboutme/static/media/IMG_0678.b95e51337fc50719f0a6.jpg",
+    "static/media/IMG_37D2BF08EF57-1.jpeg": "/aboutme/static/media/IMG_37D2BF08EF57-1.830755e84bb6875af45c.jpeg",
+    "static/media/sedbackground.jpg": "/aboutme/static/media/sedbackground.3aa2453af2bc50c3a294.jpg",
+    "static/media/Recording 2024-08-08 at 23.05.56.gif": "/aboutme/static/media/Recording 2024-08-08 at 23.05.56.5e0ae86d68e1b401a9c7.gif",
+    "static/media/Recording 2024-08-08 at 23.39.42.gif": "/aboutme/static/media/Recording 2024-08-08 at 23.39.42.50ff3ec285b335d2fb6c.gif",
+    "static/media/Recording 2024-08-08 at 23.47.18.gif": "/aboutme/static/media/Recording 2024-08-08 at 23.47.18.266b939425809e45f387.gif",
+    "static/media/balloon.png": "/aboutme/static/media/balloon.aee64c79986f5c8ed1f6.png",
+    "static/media/CentraNo2-Bold.ttf": "/aboutme/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/aboutme/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/aboutme/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/Pfp.jpg": "/aboutme/static/media/Pfp.ba98d0dfd0e17c7a5958.jpg",
+    "static/media/revicons.eot": "/aboutme/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/aboutme/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/aboutme/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/nav-icon3.svg": "/aboutme/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "index.html": "/aboutme/index.html",
+    "static/media/nav-icon1.svg": "/aboutme/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "main.595fea5b.css.map": "/aboutme/static/css/main.595fea5b.css.map",
+    "main.facf1aed.js.map": "/aboutme/static/js/main.facf1aed.js.map",
+    "453.5b2f4392.chunk.js.map": "/aboutme/static/js/453.5b2f4392.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.595fea5b.css",
+    "static/js/main.facf1aed.js"
+  ]
+}
