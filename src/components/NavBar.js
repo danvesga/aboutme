@@ -11,7 +11,7 @@ export const NavBar = () => {
 
     // define onScroll
     const onScroll = () => {
-        if (window.scrollY > 50) {
+        if (window.scrollY > 40) {
             setScrolled(true);
         } else {
             setScrolled(false);
@@ -54,6 +54,8 @@ export const NavBar = () => {
                             onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
                         <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} 
                             onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+                            <Nav.Link href="#art" className={activeLink === 'art' ? 'active navbar-link' : 'navbar-link'} 
+                            onClick={() => onUpdateActiveLink('art')}>Art</Nav.Link>
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">

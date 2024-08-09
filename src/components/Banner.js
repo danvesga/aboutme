@@ -1,15 +1,15 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-//import headerImg from "../assets/img/..."
+import headerImg from "../assets/img/balloon.png";
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["UI/UX Designer", "Web Developer", "Artist", "Student @ NEU"];
+    const toRotate = [" UI/UX Designer", " Web Developer", "n Artist", " Student @ NEU"];
     const [text, setText] = useState('');
-    const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const period = 2000;
+    const [delta, setDelta] = useState(200 - Math.random() * 100);
+    const period = 1000;
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -46,7 +46,7 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{"Hello! I'm Daniel Vesga "}<span className="wrap">{text}</span>
+                        <h1>{"Hello! I'm Daniel Vesga. A"}<span className="wrap">{text}</span>
                             
                         </h1>
                         <p>As a combined Computer Science and Design student, 
@@ -58,7 +58,7 @@ export const Banner = () => {
                         <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={""} alt="Header Img" />
+                        <img src={headerImg} width={300} height={300} alt="Header Img" />
                     </Col>
                 </Row>
             </Container>
