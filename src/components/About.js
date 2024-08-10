@@ -6,7 +6,7 @@ export const About = () => {
             <Container>
                 <Row>
                     <Col>
-                        <div className="skill-bx">
+                        <div className="skill-bx2">
                             <h2>About</h2>
                             <h3>Education</h3>
                             <p>From Tenafly High School to Northeastern University, 
@@ -15,17 +15,35 @@ export const About = () => {
                                 <Col md={6}>
                                     <h3>Courses</h3>
                                     <ul>
-                                        <p>Build an AI copilot with vCore-based Azure Cosmos DB for MongoDB and Azure OpenAI, 
-                                            Object Oriented Design, UX Design, Cybersecurity, Data Structures</p>
+                                        <li>Build an AI copilot with Azure OpenAI</li>
+                                        <li>Object Oriented Design</li>
+                                        <li>UX Design</li>
+                                        <li>Cybersecurity</li>
+                                        <li>Data Structures</li>
                                     </ul>
                                 </Col>
                                 <Col md={6}>
                                     <h3>Skills</h3>
                                     <ul>
-                                        <p>Java, Javascript, React JS, Python, HTML, CSS,  Racket, Node, Linux, Scripting, MongoDB
-Adobe Photoshop, Illustrator, InDesign, XD, Premiere Pro, After Effects, Microsoft Excel, Figma
-                                        </p>
-
+                                        <li>Java</li>
+                                        <li>Javascript</li>
+                                        <li>React JS</li>
+                                        <li>Python</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Racket</li>
+                                        <li>Node</li>
+                                        <li>Linux</li>
+                                        <li>Scripting</li>
+                                        <li>MongoDB</li>
+                                        <li>Adobe Photoshop</li>
+                                        <li>Illustrator</li> 
+                                        <li>InDesign</li> 
+                                        <li>XD</li> 
+                                        <li>Premiere Pro</li>
+                                        <li>After Effects</li>
+                                        <li>Microsoft Excel</li>
+                                        <li>Figma</li>
                                     </ul>
                                 </Col>
                             </Row>

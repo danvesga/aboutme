@@ -43,36 +43,11 @@ export const Art = () => {
                             <h2>Art</h2>
                             <p>6 years ago, I turned my lifelong passion for art into a business, selling designs, phone cases, and stickers. Here is some of my work</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
-                                <div className="item">
-                                    <img src={art1} alt="Image" />
-                                </div>
-                                <div className="item">
-                                    <img src={art2} alt="Image" />
-                                </div>
-                                <div className="item">
-                                    <img src={art3} alt="Image" />
-                                </div>
-                                <div className="item">
-                                    <img src={art4} alt="Image" />
-                                </div>
-                                <div className="item">
-                                    <img src={art5} alt="Image" />
-                                </div>
-                                <div className="item">
-                                    <img src={art6} alt="Image" />
-                                </div>
-                                <div className="item">
-                                    <img src={art7} alt="Image" />
-                                </div>
-                                <div className="item">
-                                    <img src={art8} alt="Image" />
-                                </div>
-                                <div className="item">
-                                    <img src={art10} alt="Image" />
-                                </div>
-                                <div className="item">
-                                    <img src={art9} alt="Image" />
-                                </div>
+                                {[art1, art2, art3, art4, art5, art6, art7, art8, art9, art10].map((art, index) => (
+                                    <div className="item" key={index}>
+                                        <img src={art} alt={`Artwork ${index + 1}`} />
+                                    </div>
+                                ))}
                             </Carousel>
                             <a className="link" href="https://www.instagram.com/deltavsn/"><button> See DeltaVision <EyeFill size={25} /></button></a>
                         </div>
