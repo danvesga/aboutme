@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import school from "../assets/img/thsneu.png"
 
 export const About = () => {
     return (
@@ -9,6 +10,7 @@ export const About = () => {
                         <div className="skill-bx2">
                             <h2>About</h2>
                             <h3>Education</h3>
+                            <img src={school} height={250} alt="THS to NEU"/>
                             <p>From Tenafly High School to Northeastern University, 
                                 the learning never stops for me inside and out of class</p>
                             <Row>

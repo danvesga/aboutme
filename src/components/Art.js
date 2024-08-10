@@ -54,7 +54,6 @@ export const Art = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={"your-background-image-url"} alt="background image" />
         </section>
     );
 }
