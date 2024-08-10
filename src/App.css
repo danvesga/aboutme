@@ -327,6 +327,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
+.art .link {
+  font-size: 20px;
+}
+
+.art .link:hover svg {
+  margin-left: 25px;
+}
 
 /* Projects */
 
@@ -404,9 +411,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx {
   position: relative;
+  max-height: 300px;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.proj-imgbx img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: inherit;
 }
 .proj-imgbx::before {
   content: "";
@@ -454,6 +472,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+
 
 /* Project Cards? */
 
@@ -526,4 +545,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover::before {
   width: 100%;
+}
+
+/* Footer */
+
+.footer a {
+  color: #fff;
 }

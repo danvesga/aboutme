@@ -59,8 +59,8 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#"><img src={LinkedIn} alt="yes" /></a>
-                            <a href="#"><img src={Instagram} alt="yes" /></a>
+                            <a href="https://www.linkedin.com/in/daniel-vesga-941294291/"><img src={LinkedIn} alt="yes" /></a>
+                            <a href="https://www.instagram.com/danvesga/"><img src={Instagram} alt="yes" /></a>
                         </div>
                         <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>    
                     </span>
@@ -69,20 +69,3 @@ export const NavBar = () => {
         </Navbar>
     );
 };
-
-/* Add to NavBar:
-DeltaVsn or Art separate page
-LinkedIn account link or Connect section with multiple socials
-
-/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">
-                        Another action
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">
-                        Separated link
-                    </NavDropdown.Item>
-                    </NavDropdown>
-*/

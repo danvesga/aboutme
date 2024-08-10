@@ -11,6 +11,7 @@ import art7 from "../assets/img/IMG_0679.jpg";
 import art8 from "../assets/img/IMG_0680.jpg";
 import art9 from "../assets/img/IMG_0681.jpg";
 import art10 from "../assets/img/playground.jpg";
+import { EyeFill } from "react-bootstrap-icons";
 
 
 export const Art = () => {
@@ -73,6 +74,7 @@ export const Art = () => {
                                     <img src={art9} alt="Image" />
                                 </div>
                             </Carousel>
+                            <a className="link" href="https://www.instagram.com/deltavsn/"><button> See DeltaVision <EyeFill size={25} /></button></a>
                         </div>
                     </Col>
                 </Row>

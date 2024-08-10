@@ -55,7 +55,6 @@ export const Banner = () => {
                         for the visual arts and storytelling. Through design and development, 
                         I want to influence a world where all our added technology and 
                         shortcuts bolster the active and social parts of our lives.</p>
-                        <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} width={300} height={300} alt="Header Img" />
@@ -65,3 +64,5 @@ export const Banner = () => {
         </section>
     );
 }
+
+//<button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>

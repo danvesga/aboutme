@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import { ArrowUpCircleFill } from "react-bootstrap-icons";
 import Pfp from "../assets/img/Pfp.jpg"
 
 export const Footer = () => {
@@ -12,12 +11,11 @@ export const Footer = () => {
               <img src={Pfp} width={110} height={110} alt="Logo"/>
             </Col>
             <Col size={12} sm={6} className="text-center text-sm-end">
-              <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="Icon" /></a>
-                <a href="#"><img src={navIcon3} alt="Icon" /></a>
-              </div>
+              <a href="#home"><ArrowUpCircleFill size={40} /></a>
+              <p>Created in React JS</p>
               <p>Copyright 2024. All Rights Reserved</p>
             </Col>
+            
           </Row>
         </Container>
       </footer>

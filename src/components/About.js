@@ -9,6 +9,8 @@ export const About = () => {
                         <div className="skill-bx">
                             <h2>About</h2>
                             <h3>Education</h3>
+                            <p>From Tenafly High School to Northeastern University, 
+                                the learning never stops for me inside and out of class</p>
                             <Row>
                                 <Col md={6}>
                                     <h3>Courses</h3>
