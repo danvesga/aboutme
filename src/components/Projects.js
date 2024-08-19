@@ -38,6 +38,12 @@ export const Projects = () => {
     ];
     const prototypes = [
         {
+            title: "Radien",
+            description: "Ticketing system (Work in Progress)",
+            imgUrl: radien,
+            link: "https://www.figma.com/design/6OkQ8JdI5pncQ84Mfa81vx/Radien-P3?node-id=8-9&t=ozx1o9Gs8hhRwXVl-0"
+        },
+        {
             title: "Dream Diary",
             description: "Sleep Wellness Prototype (team project)",
             imgUrl: diary,
@@ -48,12 +54,6 @@ export const Projects = () => {
             description: "Figma Redesign",
             imgUrl: mbta,
             link: "https://www.figma.com/design/9tMt85XxEmdVAwrAOTFUuU/MBTA-project2?node-id=0-1&t=qSGogDiTCWCjLcaz-1"
-        },
-        {
-            title: "Radien",
-            description: "Ticketing system (Work in Progress)",
-            imgUrl: radien,
-            link: ""
         }
     ]
 
@@ -63,7 +63,6 @@ export const Projects = () => {
                 <Row>
                     <Col>
                         <h2>Projects</h2>
-                        <p> Projects go here</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills">
                                 <Nav.Item>
