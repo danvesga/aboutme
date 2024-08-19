@@ -212,7 +212,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, #2b2b4d -5.91%, #91009C 10%, #E64616 50%, #FEB400 111.58%);
+  background: linear-gradient(90.21deg, #315855 0%, #83a39b  33%, #b58c39 66%, #b12211 100%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -407,7 +407,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #91009C -5.91%, #E64616 50%, #FEB400 111.58%);
+    background: linear-gradient(90.21deg, #517193  -10%, #486684 15%, #233f61 65%, #273235 100%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -450,8 +450,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #2b2b4d -5.91%, #91009C 10%, #E64616 50%, #FEB400 111.58%);
-  opacity: 0.85;
+  background: linear-gradient(90.21deg, #c8543e  -5%, #8b2009 40%, #9a240b 100%);
+  opacity: 0.75;
   position: absolute;
   width: 100%;
   height: 0;
@@ -501,7 +501,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Project Cards? */
 
 .contact {
-  background: linear-gradient(90.21deg, #2b2b4d -5.91%, #91009C 10%, #E64616 50%, #FEB400 111.58%);
+  background: linear-gradient(90.21deg, #315855 0%, #83a39b  33%, #b58c39 66%, #b12211 100%);
   padding: 60px 0 200px 0;
 }
 .contact img {
