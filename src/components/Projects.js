@@ -39,21 +39,21 @@ export const Projects = () => {
     const prototypes = [
         {
             title: "Radien",
-            description: "Ticketing system (Work in Progress)",
+            description: "Ticketing system (Team project)",
             imgUrl: radien,
             link: "https://www.figma.com/design/6OkQ8JdI5pncQ84Mfa81vx/Radien-P3?node-id=8-9&t=ozx1o9Gs8hhRwXVl-0"
-        },
-        {
-            title: "Dream Diary",
-            description: "Sleep Wellness Prototype (team project)",
-            imgUrl: diary,
-            link: "https://www.figma.com/design/YG6QS7CL4va2JmqUAag7F3/all-pages?node-id=0-1&t=X2AagWCXZxBa7qlB-1"
         },
         {
             title: "MBTA App",
             description: "Figma Redesign",
             imgUrl: mbta,
             link: "https://www.figma.com/design/9tMt85XxEmdVAwrAOTFUuU/MBTA-project2?node-id=0-1&t=qSGogDiTCWCjLcaz-1"
+        },
+        {
+            title: "Dream Diary",
+            description: "Sleep Wellness Prototype (Team project)",
+            imgUrl: diary,
+            link: "https://www.figma.com/design/YG6QS7CL4va2JmqUAag7F3/all-pages?node-id=0-1&t=X2AagWCXZxBa7qlB-1"
         }
     ]
 
