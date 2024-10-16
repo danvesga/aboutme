@@ -17,11 +17,17 @@ export const About = () => {
                                 <Col md={6}>
                                     <h3>Courses</h3>
                                     <ul>
-                                        <li>Build an AI copilot with Azure OpenAI</li>
-                                        <li>Object Oriented Design</li>
-                                        <li>UX Design</li>
+                                        <li>Artificial Intelligence</li>
+                                        <li>Algorithms & Data</li>
+                                        <li>Azure OpenAI</li>
                                         <li>Cybersecurity</li>
                                         <li>Data Structures</li>
+                                        <li>Object Oriented Design</li>
+                                        <li>UX Design</li>
+                                        <li>AP Physics</li>
+                                        <li>AP Calculus</li>
+                                        
+                                        
                                     </ul>
                                 </Col>
                                 <Col md={6}>

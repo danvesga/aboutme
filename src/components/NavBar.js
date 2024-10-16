@@ -59,10 +59,11 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/daniel-vesga-941294291/"><img src={LinkedIn} alt="yes" /></a>
+                            <a href="https://www.linkedin.com/in/danielvesga/"><img src={LinkedIn} alt="yes" /></a>
                             <a href="https://www.instagram.com/danvesga/"><img src={Instagram} alt="yes" /></a>
                         </div>
-                        <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>    
+                        <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} 
+                        onClick={() => onUpdateActiveLink('connect')}><button>Let's Connect</button></Nav.Link>    
                     </span>
                 </Navbar.Collapse>
             </Container>
