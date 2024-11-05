@@ -46,7 +46,6 @@ export const Projects = () => {
             description: "MatPlot graph of Python implementation",
             imgUrl: projImg6,
         }
-
     ];
     const films = [
         {
