@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/IMG_9940.JPG";
-import resume from "../assets/img/DanielVesgaResumeSeptember2024.pdf";
+import resume from "../assets/img/Daniel Vesga Resume November 2024 - .pdf";
 import TrackVisibility from 'react-on-screen';
 
 export const Contact = () => {

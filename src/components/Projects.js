@@ -3,6 +3,9 @@ import { ProjectCard, ProjectCard2 } from "./ProjectCard";
 import projImg1 from "../assets/img/Recording 2024-08-08 at 23.39.42.gif";
 import projImg2 from "../assets/img/Recording 2024-08-08 at 23.47.18.gif";
 import projImg3 from "../assets/img/Recording 2024-08-08 at 23.05.56.gif";
+import projImg4 from "../assets/img/Recording 2024-11-05 at 00.34.14.gif";
+import projImg5 from "../assets/img/Recording 2024-11-05 at 00.52.36.gif";
+import projImg6 from "../assets/img/heatmap_10000.png";
 import film from "../assets/img/Screenagers.gif";
 import mbta from "../assets/img/MBTA.gif";
 import diary from "../assets/img/Diary.gif";
@@ -14,9 +17,9 @@ export const Projects = () => {
 
     const projects = [
         {
-            title: "LightEmUp",
-            description: "Java Game",
-            imgUrl: projImg1,
+            title: "Shape Identifier AI",
+            description: "Computer Vision Web APP (Javascript)",
+            imgUrl: projImg5,
         },
         {
             title: "Minesweeper",
@@ -24,10 +27,26 @@ export const Projects = () => {
             imgUrl: projImg2,
         },
         {
+            title: "LightEmUp",
+            description: "Java Game",
+            imgUrl: projImg1,
+        },
+        {
             title: "Z Type",
             description: "Java Game",
             imgUrl: projImg3,
+        },
+        {
+            title: "Pacman DFS + BFS",
+            description: "Python Algorithm",
+            imgUrl: projImg4,
+        },
+        {
+            title: "Q-Learning Algorithm",
+            description: "MatPlot graph of Python implementation",
+            imgUrl: projImg6,
         }
+
     ];
     const films = [
         {

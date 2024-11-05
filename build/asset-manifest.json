@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/aboutme/static/css/main.cee9844e.css",
-    "main.js": "/aboutme/static/js/main.36e65c39.js",
+    "main.js": "/aboutme/static/js/main.e413430e.js",
     "static/js/453.5b2f4392.chunk.js": "/aboutme/static/js/453.5b2f4392.chunk.js",
+    "static/media/Recording 2024-11-05 at 00.52.36.gif": "/aboutme/static/media/Recording 2024-11-05 at 00.52.36.0dfbd7bc1a438d5a34eb.gif",
     "static/media/Screenagers.gif": "/aboutme/static/media/Screenagers.a7e2d19f74fbd1aeb2e5.gif",
     "static/media/playground.jpg": "/aboutme/static/media/playground.6f90f9ea2e0d6b5c7d69.jpg",
+    "static/media/Recording 2024-11-05 at 00.34.14.gif": "/aboutme/static/media/Recording 2024-11-05 at 00.34.14.d22b68e9c3dea29040fd.gif",
     "static/media/Diary.gif": "/aboutme/static/media/Diary.0151d88bf55fcae33371.gif",
     "static/media/Untitled_Artwork 4.jpg": "/aboutme/static/media/Untitled_Artwork 4.36b936c799fdb5e8d479.jpg",
     "static/media/Untitled_Artwork.jpg": "/aboutme/static/media/Untitled_Artwork.c96757b8d0fccbf409fa.jpg",
@@ -28,7 +30,8 @@
     "static/media/CentraNo2-Medium.ttf": "/aboutme/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/aboutme/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/Pfp.jpg": "/aboutme/static/media/Pfp.ba98d0dfd0e17c7a5958.jpg",
-    "static/media/DanielVesgaResumeSeptember2024.pdf": "/aboutme/static/media/DanielVesgaResumeSeptember2024.3d2348dc8221c20f36d6.pdf",
+    "static/media/Daniel Vesga Resume November 2024 - .pdf": "/aboutme/static/media/Daniel Vesga Resume November 2024 - .01a6b2eee10d66c09bad.pdf",
+    "static/media/heatmap_10000.png": "/aboutme/static/media/heatmap_10000.0425c9b6b3c426eede86.png",
     "static/media/revicons.eot": "/aboutme/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/aboutme/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/aboutme/static/media/revicons.e8746a624ed098489406.woff",
@@ -36,11 +39,11 @@
     "index.html": "/aboutme/index.html",
     "static/media/nav-icon1.svg": "/aboutme/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.cee9844e.css.map": "/aboutme/static/css/main.cee9844e.css.map",
-    "main.36e65c39.js.map": "/aboutme/static/js/main.36e65c39.js.map",
+    "main.e413430e.js.map": "/aboutme/static/js/main.e413430e.js.map",
     "453.5b2f4392.chunk.js.map": "/aboutme/static/js/453.5b2f4392.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cee9844e.css",
-    "static/js/main.36e65c39.js"
+    "static/js/main.e413430e.js"
   ]
 }
