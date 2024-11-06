@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aboutme/static/css/main.cee9844e.css",
-    "main.js": "/aboutme/static/js/main.e413430e.js",
+    "main.js": "/aboutme/static/js/main.49b8f908.js",
     "static/js/453.5b2f4392.chunk.js": "/aboutme/static/js/453.5b2f4392.chunk.js",
     "static/media/Recording 2024-11-05 at 00.52.36.gif": "/aboutme/static/media/Recording 2024-11-05 at 00.52.36.0dfbd7bc1a438d5a34eb.gif",
     "static/media/Screenagers.gif": "/aboutme/static/media/Screenagers.a7e2d19f74fbd1aeb2e5.gif",
@@ -9,6 +9,7 @@
     "static/media/Recording 2024-11-05 at 00.34.14.gif": "/aboutme/static/media/Recording 2024-11-05 at 00.34.14.d22b68e9c3dea29040fd.gif",
     "static/media/Diary.gif": "/aboutme/static/media/Diary.0151d88bf55fcae33371.gif",
     "static/media/Untitled_Artwork 4.jpg": "/aboutme/static/media/Untitled_Artwork 4.36b936c799fdb5e8d479.jpg",
+    "static/media/Recording 2024-11-05 at 22.43.02.gif": "/aboutme/static/media/Recording 2024-11-05 at 22.43.02.3371d600e1cc15cad027.gif",
     "static/media/Untitled_Artwork.jpg": "/aboutme/static/media/Untitled_Artwork.c96757b8d0fccbf409fa.jpg",
     "static/media/IMG_0677.jpg": "/aboutme/static/media/IMG_0677.7535aa2e6a5faf0aec5c.jpg",
     "static/media/IMG_0681.jpg": "/aboutme/static/media/IMG_0681.03b5c17f808c06035ed5.jpg",
@@ -39,11 +40,11 @@
     "index.html": "/aboutme/index.html",
     "static/media/nav-icon1.svg": "/aboutme/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.cee9844e.css.map": "/aboutme/static/css/main.cee9844e.css.map",
-    "main.e413430e.js.map": "/aboutme/static/js/main.e413430e.js.map",
+    "main.49b8f908.js.map": "/aboutme/static/js/main.49b8f908.js.map",
     "453.5b2f4392.chunk.js.map": "/aboutme/static/js/453.5b2f4392.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cee9844e.css",
-    "static/js/main.e413430e.js"
+    "static/js/main.49b8f908.js"
   ]
 }
