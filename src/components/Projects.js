@@ -10,6 +10,7 @@ import film from "../assets/img/Screenagers.gif";
 import mbta from "../assets/img/MBTA.gif";
 import diary from "../assets/img/Diary.gif";
 import radien from "../assets/img/radien.gif";
+import platnm from "../assets/img/Recording 2024-11-05 at 22.43.02.gif";
 //import 'animate.css';
 
 
@@ -72,6 +73,12 @@ export const Projects = () => {
             description: "Sleep Wellness Prototype (Team project)",
             imgUrl: diary,
             link: "https://www.figma.com/design/YG6QS7CL4va2JmqUAag7F3/all-pages?node-id=0-1&t=X2AagWCXZxBa7qlB-1"
+        },
+        {
+            title: "Platnm",
+            description: "Social Music Reviewing Platform (Work in Progress)",
+            imgUrl: platnm,
+            link: "https://www.figma.com/design/mqxOE5LcS2grXfN5ME1LW3/My-platnm?node-id=0-1&t=pnxqEmF4j1OZQaWY-1"
         }
     ]
 
@@ -158,7 +165,7 @@ export const Projects = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-right" src={""} alt="Background image" />
+            {/* <img className="background-image-right" src={""} alt="Background image" /> */}
         </section>
     );
 };

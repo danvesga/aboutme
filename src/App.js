@@ -6,7 +6,8 @@ import { Art } from './components/Art.js';
 import { Projects } from './components/Projects.js';
 import { About } from './components/About.js';
 import { Contact } from './components/Contact.js';
-import { Footer } from './components/Footer.js';
+import ThreeDScene from "./newComponents/TreasureCoralScene.js";
+import { Footer } from './newComponents/Footer.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Welcome() {
@@ -19,18 +20,24 @@ function Welcome() {
 
 function App() {
     return (
-        <div className="App2">
-            <NavBar/>
-            <Banner/>
-            <About/>
-            <Projects/>
-            <Art/>
-            <Contact/>
-            <Footer/>
+        <div className="App">
+            <ThreeDScene/>
         </div>
     )
 }
 
-
+function oldApp() {
+  return (
+      <div className="App2">
+          <NavBar/>
+          <Banner/>
+          <About/>
+          <Projects/>
+          <Art/>
+          <Contact/>
+          <Footer/>
+      </div>
+  )
+}
 
 export default App;

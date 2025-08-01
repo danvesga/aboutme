@@ -64,5 +64,3 @@ export const Banner = () => {
         </section>
     );
 }
-
-//<button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
