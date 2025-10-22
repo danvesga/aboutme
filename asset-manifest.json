@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/aboutme/static/css/main.dc9b4e54.css",
-    "main.js": "/aboutme/static/js/main.da5704f7.js",
-    "static/js/453.46676cfc.chunk.js": "/aboutme/static/js/453.46676cfc.chunk.js",
+    "main.css": "/aboutme/static/css/main.63ca1552.css",
+    "main.js": "/aboutme/static/js/main.c0739e91.js",
+    "static/js/206.7ef20b55.chunk.js": "/aboutme/static/js/206.7ef20b55.chunk.js",
     "static/media/Recording 2024-11-05 at 00.52.36.gif": "/aboutme/static/media/Recording 2024-11-05 at 00.52.36.0dfbd7bc1a438d5a34eb.gif",
     "static/media/Screenagers.gif": "/aboutme/static/media/Screenagers.a7e2d19f74fbd1aeb2e5.gif",
     "static/media/Recording 2025-07-31 at 22.14.23.gif": "/aboutme/static/media/Recording 2025-07-31 at 22.14.23.f9b22665fd3736a15248.gif",
@@ -31,27 +31,21 @@
     "static/media/Recording 2024-08-08 at 23.05.56.gif": "/aboutme/static/media/Recording 2024-08-08 at 23.05.56.5e0ae86d68e1b401a9c7.gif",
     "static/media/Recording 2024-08-08 at 23.39.42.gif": "/aboutme/static/media/Recording 2024-08-08 at 23.39.42.50ff3ec285b335d2fb6c.gif",
     "static/media/Recording 2024-08-08 at 23.47.18.gif": "/aboutme/static/media/Recording 2024-08-08 at 23.47.18.266b939425809e45f387.gif",
-    "static/media/balloon.png": "/aboutme/static/media/balloon.aee64c79986f5c8ed1f6.png",
     "static/media/thsneu.png": "/aboutme/static/media/thsneu.7253cd2a0ccc7f262c13.png",
     "static/media/CentraNo2-Bold.ttf": "/aboutme/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/aboutme/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/aboutme/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/Resume August 2025.pdf": "/aboutme/static/media/Resume August 2025.46c597f23e6a6123df3c.pdf",
-    "static/media/Pfp.jpg": "/aboutme/static/media/Pfp.ba98d0dfd0e17c7a5958.jpg",
-    "static/media/Daniel Vesga Resume November 2024 - .pdf": "/aboutme/static/media/Daniel Vesga Resume November 2024 - .01a6b2eee10d66c09bad.pdf",
+    "static/media/Dan Vesga Resume October 2025.pdf": "/aboutme/static/media/Dan Vesga Resume October 2025.d64639ada90c3e23753e.pdf",
     "static/media/heatmap_10000.png": "/aboutme/static/media/heatmap_10000.0425c9b6b3c426eede86.png",
     "static/media/revicons.eot": "/aboutme/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/aboutme/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/aboutme/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/nav-icon3.svg": "/aboutme/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/aboutme/index.html",
-    "static/media/nav-icon1.svg": "/aboutme/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.dc9b4e54.css.map": "/aboutme/static/css/main.dc9b4e54.css.map",
-    "main.da5704f7.js.map": "/aboutme/static/js/main.da5704f7.js.map",
-    "453.46676cfc.chunk.js.map": "/aboutme/static/js/453.46676cfc.chunk.js.map"
+    "static/media/nav-icon1.svg": "/aboutme/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg"
   },
   "entrypoints": [
-    "static/css/main.dc9b4e54.css",
-    "static/js/main.da5704f7.js"
+    "static/css/main.63ca1552.css",
+    "static/js/main.c0739e91.js"
   ]
 }
