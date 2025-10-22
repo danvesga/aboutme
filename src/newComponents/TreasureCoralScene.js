@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useMemo, useRef } from 'react';
+import React, { useState, useEffect, useMemo, useRef, Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
-import { useGLTF, useTexture } from '@react-three/drei';
+import { useGLTF, useTexture, useProgress } from '@react-three/drei';
 import { useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
 import coralSet from '../assets/models/soft_coral_set.glb';
@@ -13,6 +13,7 @@ import { Art } from './Art3d.js';
 import { Contact } from './Contact3d.js';
 import { Footer } from './Footer.js';
 import FloatingBanner from './FloatingBanner.js';
+
 
 // Floating particles component
 function FloatingParticles() {
@@ -368,6 +369,107 @@ function TreasureCoralScene({
   );
 }
 
+function LoadingScreen() {
+  const { progress, active } = useProgress();
+  const [displayProgress, setDisplayProgress] = useState(0);
+
+  // Smooth progress animation
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setDisplayProgress(prev => {
+        const target = progress;
+        const diff = target - prev;
+        if (Math.abs(diff) < 0.1) return target;
+        return prev + diff * 0.1;
+      });
+    }, 50);
+
+    return () => clearInterval(timer);
+  }, [progress]);
+
+  if (!active) return null;
+
+  return (
+    <div style={{
+      position: 'fixed',
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: '100%',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      background: 'linear-gradient(to bottom, #003366, #000515)',
+      zIndex: 1000,
+      color: 'white',
+      fontFamily: 'Centra, Arial, sans-serif'
+    }}>
+      <h2 style={{
+        fontSize: '2rem',
+        marginBottom: '2rem',
+        color: '#e2b935',
+        fontWeight: '700',
+        textShadow: '0 0 20px rgba(226, 185, 53, 0.5)'
+      }}>
+        Loading Background Elements...
+      </h2>
+
+      <div style={{
+        width: '300px',
+        height: '20px',
+        backgroundColor: 'rgba(255, 255, 255, 0.1)',
+        borderRadius: '10px',
+        overflow: 'hidden',
+        border: '2px solid rgba(226, 185, 53, 0.3)',
+        boxShadow: '0 0 20px rgba(226, 185, 53, 0.2)'
+      }}>
+        {/* Progress bar fill */}
+        <div style={{
+          width: `${displayProgress}%`,
+          height: '100%',
+          background: 'linear-gradient(90deg, #e2b935, #ffd700)',
+          transition: 'width 0.3s ease-out',
+          boxShadow: '0 0 10px rgba(226, 185, 53, 0.8)',
+          borderRadius: '8px'
+        }} />
+      </div>
+
+      {/* Percentage text */}
+      <p style={{
+        marginTop: '1rem',
+        fontSize: '1.2rem',
+        color: '#e2b935',
+        fontWeight: '500'
+      }}>
+        {Math.round(displayProgress)}%
+      </p>
+
+      {/* Add CSS animation */}
+      <style>{`
+        @keyframes pulse {
+          0%, 100% {
+            opacity: 0.3;
+            transform: scale(0.8);
+          }
+          50% {
+            opacity: 1;
+            transform: scale(1.2);
+          }
+        }
+      `}</style>
+    </div>
+  );
+}
+
+function TreasureCoralSceneWithLoading() {
+  return (
+    <Suspense fallback={null}>
+      <TreasureCoralScene />
+    </Suspense>
+  );
+}
+
 // Main App component with Canvas wrapper
 function ThreeDScene() {
   const canvasRef = useRef(null);
@@ -379,10 +481,8 @@ function ThreeDScene() {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
       
-      // Track if we've scrolled (for background transparency)
       setIsScrolled(currentScrollY > 50);
       
-      // Show/hide navbar logic
       if (currentScrollY < lastScrollY || currentScrollY < 100) {
         setIsNavVisible(true);
       } else {
@@ -399,6 +499,9 @@ function ThreeDScene() {
 
   return (
     <div style={{ position: 'relative', minHeight: '100vh' }}>
+      {/* Loading Screen - shows while 3D scene loads */}
+      <LoadingScreen />
+
       <div style={{ 
         position: 'fixed', 
         top: 0, 
@@ -408,11 +511,11 @@ function ThreeDScene() {
         zIndex: -10 
       }}>
         <Canvas
-          camera={{ position: [0,10, 30], fov: 30 }}
+          camera={{ position: [0, 10, 30], fov: 30 }}
           gl={{ alpha: true, antialias: true }}
           style={{ background: 'linear-gradient(to bottom, #003366, #000515)' }}
         >
-          <TreasureCoralScene />
+          <TreasureCoralSceneWithLoading />
         </Canvas>
       </div>
       
@@ -438,7 +541,6 @@ function ThreeDScene() {
         <div>
           <FloatingBanner text="Hello! I'm Daniel Vesga" />
           <About />
-          
           <Projects />
           <Art />
           <Contact />

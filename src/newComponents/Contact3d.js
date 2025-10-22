@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/IMG_9940.JPG";
-import resume from "../assets/img/Resume August 2025.pdf";
+import resume from "../assets/img/Dan Vesga Resume October 2025.pdf";
 import TrackVisibility from 'react-on-screen';
 import emailjs from '@emailjs/browser';
 
