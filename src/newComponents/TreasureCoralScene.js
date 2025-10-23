@@ -369,15 +369,52 @@ function TreasureCoralScene({
   );
 }
 
+// Loading screen component with progress bar
 function LoadingScreen() {
   const { progress, active } = useProgress();
   const [displayProgress, setDisplayProgress] = useState(0);
+  const [loadingText, setLoadingText] = useState('');
+  const [useRealProgress, setUseRealProgress] = useState(false);
+  const startTimeRef = useRef(Date.now());
+  const loadingMessages = [
+    "Grinding Leetcode",
+    "Hacking into the mainframe",
+    "Reading API docs",
+    "Writing O(log n) algorithms"
+  ];
 
-  // Smooth progress animation
   useEffect(() => {
+    const randomMessage = loadingMessages[Math.floor(Math.random() * loadingMessages.length)];
+    setLoadingText(randomMessage);
+  }, []);
+
+  useEffect(() => {
+    if (useRealProgress) return;
+
+    const interval = setInterval(() => {
+      const elapsed = Date.now() - startTimeRef.current;
+      const fakeProgress = Math.min((elapsed / 5000) * 50, 50);
+      
+      setDisplayProgress(fakeProgress);
+
+      // Switch to real progress after 5 seconds OR if real progress > 0
+      if (elapsed >= 5000 || progress > 0) {
+        setUseRealProgress(true);
+        setLoadingText("Loading Background Elements");
+      }
+    }, 50);
+
+    return () => clearInterval(interval);
+  }, [progress, useRealProgress]);
+
+  // Handle real progress (50-100%)
+  useEffect(() => {
+    if (!useRealProgress) return;
+
     const timer = setInterval(() => {
       setDisplayProgress(prev => {
-        const target = progress;
+        // Map real progress (0-100) to display progress (50-100)
+        const target = 50 + (progress * 0.5);
         const diff = target - prev;
         if (Math.abs(diff) < 0.1) return target;
         return prev + diff * 0.1;
@@ -385,9 +422,9 @@ function LoadingScreen() {
     }, 50);
 
     return () => clearInterval(timer);
-  }, [progress]);
+  }, [progress, useRealProgress]);
 
-  if (!active) return null;
+  if (!active && displayProgress >= 99) return null;
 
   return (
     <div style={{
@@ -405,6 +442,7 @@ function LoadingScreen() {
       color: 'white',
       fontFamily: 'Centra, Arial, sans-serif'
     }}>
+      {/* Loading text */}
       <h2 style={{
         fontSize: '2rem',
         marginBottom: '2rem',
@@ -412,7 +450,7 @@ function LoadingScreen() {
         fontWeight: '700',
         textShadow: '0 0 20px rgba(226, 185, 53, 0.5)'
       }}>
-        Loading Background Elements...
+        {loadingText}
       </h2>
 
       <div style={{
@@ -462,6 +500,7 @@ function LoadingScreen() {
   );
 }
 
+// Updated TreasureCoralScene wrapper with Suspense
 function TreasureCoralSceneWithLoading() {
   return (
     <Suspense fallback={null}>
@@ -470,7 +509,7 @@ function TreasureCoralSceneWithLoading() {
   );
 }
 
-// Main App component with Canvas wrapper
+// Main App component with loading screen
 function ThreeDScene() {
   const canvasRef = useRef(null);
   const [isNavVisible, setIsNavVisible] = useState(true);
