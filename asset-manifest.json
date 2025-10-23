@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aboutme/static/css/main.63ca1552.css",
-    "main.js": "/aboutme/static/js/main.c0739e91.js",
+    "main.js": "/aboutme/static/js/main.329db309.js",
     "static/js/206.7ef20b55.chunk.js": "/aboutme/static/js/206.7ef20b55.chunk.js",
     "static/media/Recording 2024-11-05 at 00.52.36.gif": "/aboutme/static/media/Recording 2024-11-05 at 00.52.36.0dfbd7bc1a438d5a34eb.gif",
     "static/media/Screenagers.gif": "/aboutme/static/media/Screenagers.a7e2d19f74fbd1aeb2e5.gif",
@@ -46,6 +46,6 @@
   },
   "entrypoints": [
     "static/css/main.63ca1552.css",
-    "static/js/main.c0739e91.js"
+    "static/js/main.329db309.js"
   ]
 }
